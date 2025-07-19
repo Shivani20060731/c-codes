@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int choice;
+    cout<<"1.EDC"<<endl<<"2.CDS"<<endl<<"3.ADC"<<endl<<"4.SIGNAL AND SYSTEM"<<endl<<"5.MATHS"<<endl<<"6.DCLD"<<endl;
+    cout<<"Enter your choice for subjects:"<<endl;
+    cin>>choice;
+    switch(choice){
+        case 1:
+        cout<<"EDC";
+        break;
+        
+        case 2:
+        cout<<"CDS";
+        break;
+        
+        case 3:
+        cout<<"ADC";
+        break;
+        
+        case 4:
+        cout<<"SIGNAL AND SYSTEM";
+        break;
+        
+        case 5:
+        cout<<"MATHS";
+        break;
+        
+        case 6:
+        cout<<"DCLD";
+        break;
+        
+        default:
+        cout<<"The choice you have selected is not valid";
+        break;
+    }
+
+    return 0;
+}
+
+answer
+1.EDC
+2.CDS
+3.ADC
+4.SIGNAL AND SYSTEM
+5.MATHS
+6.DCLD
+Enter your choice for subjects:
+2
+CDS
