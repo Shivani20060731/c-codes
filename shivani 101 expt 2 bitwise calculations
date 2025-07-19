@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a = 25;
+    int b = 13;
+    cout << "AND: " << (a & b) << endl;
+    cout << "OR: " << (a | b) << endl;
+    cout << "NOT: " << (~a) << endl;
+    cout << "XOR: " << (a ^ b) << endl;
+    cout << "LEFT SHIFT: " << (a << 1) << endl;
+    cout << "RIGHT SHIFT: " << (a >> 1) << endl;
+
+    return 0;
+}
+
+answer
+AND: 12
+OR: 14
+NOT: -15
+XOR: 2
+LEFT SHIFT: 28
+RIGHT SHIFT: 7
+
